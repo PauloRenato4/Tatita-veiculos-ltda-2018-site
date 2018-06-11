@@ -1,0 +1,359 @@
+ 
+
+#logo {
+	width:290px;
+	height:80px;
+	
+}
+
+#upp{
+	width: 400px;
+}
+
+#uppp{
+	width: 320px;
+	margin-left: 15px;
+}
+
+#upppp{
+	width: 270px;
+	margin-left: 35px;
+}
+
+
+#logo1 {
+	margin-top: 10px;
+	margin-left: 480px;
+	width:290px;
+	height:80px;
+}
+
+#h1{
+	font-size: 18px;
+	font-family: georgia;
+	font-style: georgia;
+}
+
+#facebook{
+	width: 45px;
+	height: 45px;
+
+}
+#email{
+	width: 45px;
+	height: 45px;
+	
+}
+#instagran{
+	width: 45px;
+	height: 45px;
+	
+}
+
+#designerhome{
+	border-radius: 10px 0px 0px 10px;
+}
+
+#designerhomes{
+  border-radius: 0px 10px 10px 0px;
+}
+
+p{
+	font-size: 14px;
+}
+
+#clear{
+	clear:both;
+}	
+
+body{
+	font-size:11px;
+
+	font-family:Verdana, sans-serif;
+	color:#58595b;
+	margin:0px;
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-color: white;
+}
+
+
+
+#topoicones{
+	width:1270px;
+	text-align: right;
+	vertical-align: bottom;
+
+}
+
+#pecass{
+	width: 1142px;
+	margin-left: 60px;
+
+	border-radius: 10px 10px 10px 10px;
+}
+
+#pecasss{
+	width: 1142px;
+
+	border-radius: 10px 10px 10px 10px;
+}
+
+#pecass1{
+	width: 1142px;
+	margin-left: 100px;
+
+	border-radius: 10px 10px 10px 10px;
+}
+
+#vdc{
+	width: 1142px;	
+	margin-left: 60px;
+
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+#banner99{
+     width: 1142px;	
+     height: 350px;
+	margin-left: 60px;
+
+	border-radius: 10px 10px 10px 10px;
+
+}
+
+
+
+
+#site {
+	margin-left: 100px;
+	width: 1270px;
+	margin:0 auto;
+}
+
+#topo {
+	width:1145px;
+	height:86px;
+	margin-left: 60px;
+	border-bottom: 1px solid blue;
+	
+}
+
+#map {
+  height: 350px;
+  width: 90%;
+  margin-left:60px;
+  margin-right: 350px;
+  border-radius: 10px 10px 10px 10px;
+ }
+
+#menu{
+  text-align: center;
+  margin-left: 60px;
+}
+
+#contact{
+	margin-top:70px;
+	margin-left:60px;
+	margin-right: 60px;
+
+}
+
+#menuInt {
+	float:left;
+	margin-left:2px;
+	margin-top:-3px;
+
+}
+#menuInt ul {
+	list-style: none;
+	padding:0;
+	margin-top:13px;
+}
+#menuInt ul li {
+	position:relative;
+float:left;
+width: 163px;
+
+
+}
+
+
+#meni ul li {
+	position:relative;
+float:left;
+width: 235px;
+
+
+
+}
+
+#menos ul li {
+	position:relative;
+float:left;
+width: 134.7px;
+
+
+}
+
+#menuDiferencial {
+	color:#FFF;
+	height: 40px;
+	font-family: georgia;
+	font-size:20px;
+	margin-right: 60px;
+	margin-left: 60px;
+	text-align: center;
+	line-height: 40px;
+		text-decoration: none;
+	background-color: darkblue;
+	border-radius: 10px 10px 10px 10px;
+
+}
+
+#menuInt ul li a{
+
+
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:14px;
+	padding-top:13px;
+	margin-left:-4px;
+  display:block;
+	background-color: darkblue;
+
+}
+	
+}
+
+#menuInt ul li a.active{
+	color: #FFF;
+	background-color:#616161;
+
+		
+}
+
+
+/*faz p hover em cima dos menus quando passado o mouse*/
+#menu li a:hover{
+background:#333;
+color:#fff;
+}
+
+
+/*posição menu*/
+#menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+background-color:#616161;
+display:none;
+
+}  
+
+#menu li:hover ul, .menu li.over ul{
+  display:block;
+}
+
+/*formata o sub menu*/
+#menu li ul li{   
+width:160px;
+text-align: center;
+}
+
+
+#meni li ul li{   
+width:235px;
+text-align: center;
+}
+
+#menos li ul li{   
+width:235px;
+text-align: center;
+}
+
+#diferencial{
+
+margin-left: 60px;
+margin-right: 60px;
+text-align: center;
+position: center;
+}
+
+#topicos{
+background-color: lightgray;
+margin-left: 60px;
+margin-right: 60px;
+
+}
+#h3{
+	font-size: 30px;
+	position: center;
+	margin-left: 500px;
+	font-style: bold;
+}
+
+#titulo1{
+	font-size: 24px;
+	font-family: bold;
+	 color: #01b0ef;
+
+}
+
+
+#pec{
+width: 200px; 
+
+}
+
+#folder{
+	background-color: lightgray;
+	margin-left: 60px;
+	margin-right: 60px;
+	
+}
+
+#h4{
+	font-size: 30px;
+	position: center;
+	margin-left: 350px;
+	font-style: bold;
+}
+
+.botao{
+	text-align: center;
+	color: blue;
+	}
+
+#top{
+	width: 350px;
+	margin-left: 63px;
+}
+
+#top2{
+	width: 350px;
+	margin-left: 250px;
+}
+
+.botao1{
+	text-align: center;
+	color: blue;
+	margin-right: 670PX;
+	}
+
+	#h34{
+	font-size: 30px;
+	position: center;
+	margin-left: 580px;
+	margin-top: 80px;
+	font-style: bold;
+}
+
+
+#imgseguro{
+	width: 100%;
+}

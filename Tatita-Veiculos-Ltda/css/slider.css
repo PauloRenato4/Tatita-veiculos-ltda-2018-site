@@ -1,0 +1,13 @@
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+      border-radius: 10px 10px 10px 10px;
+  }
+
+  .container{
+
+  	margin-top: 45px;
+  	border-radius: 10px 10px 10px 10px;
+  }

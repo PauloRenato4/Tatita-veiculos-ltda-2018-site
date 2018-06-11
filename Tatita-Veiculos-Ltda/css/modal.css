@@ -1,0 +1,47 @@
+
+/* Style inputs */
+input[type=text], select, textarea{
+    width: 95%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 14px;
+
+    border-radius: 10px 10px 10px 10px;
+    resize: vertical;
+}
+
+#titulo{
+    font-size: 28px;
+    text-align: center;
+    font-family: arial;
+    font-style: arial;
+    color: #01b0ef;
+}
+input[type=submit] {
+    background-color: #01b0ef;
+    color: white;
+    padding: 10px 390px;
+    border: none;
+    margin-left: 14px;
+
+    font-size: 18px;
+
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #01b0ef;
+}
+
+#test{
+font-size: 16px;
+margin-left: 14px;
+}
+
+#x{
+    width: 40px;
+}

@@ -1,0 +1,208 @@
+
+#footer4{
+background-color: lightgray;
+	font-family: verdana;
+	font-style: verdana;
+	margin-left: 60px;
+	margin-right: 68px;
+
+  border-radius: 10px 10px 10px 10px;
+}
+
+#footer11{
+background-color: lightgray;
+  font-family: verdana;
+  font-style: verdana;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  border-radius: 10px 10px 10px 10px;
+}
+
+#footer12{
+background-color: lightgray;
+  font-family: verdana;
+  font-style: verdana;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  border-radius: 10px 10px 10px 10px;
+}
+
+#footer5{
+    background-color: lightgray;
+	margin-left: 60px;
+	margin-right: 62px;
+  
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.services {
+	background-color: lightgray;
+	padding-bottom: 50px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 60px;
+  margin-right: 62px;
+}
+@media (max-width: 991px) {
+  .services {
+    padding-bottom: 20px;
+  }
+}
+.services .services-content {
+  margin-top: 180px;
+}
+
+/*caixa texto*/
+.services .services-content .service-item {
+  background-color: #ffffff;
+  display: inline-block;
+  width: 100%!important;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+}
+@media (max-width: 991px) {
+  .services .services-content .service-item {
+    margin-bottom: 120px;
+  }
+}
+.services .services-content .service-item img {
+  margin-top: -100px;
+  width: 100%; 
+  border-radius: 10px 10px 10px 10px;
+
+  overflow: hidden;
+  background-size: cover;
+}
+.services .services-content .service-item .service-baner {
+  text-align: center;
+
+  margin-top: -20px;
+}
+/*cx titulo*/
+.services .services-content .service-item .service-baner a {
+	color: #ffffff;
+  width: 150px;
+	font-size: 12px;
+  border-radius: 10px 10px 10px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #244892;
+	/* [disabled]width: 126px; */
+	height: 40px;
+	text-align: center;
+  	line-height: 40px;
+  	display: inline-block;
+}
+.services .services-content .service-item p {
+  margin-top: 15px;
+  text-align: center;
+}
+.services .services-content .service-item .primary-button {
+  text-align: center;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+@media (max-width: 991px) {
+  .services-second .service-item {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 991px) {
+  .primary-button {
+    text-align: center;
+  }
+}
+.primary-button a {
+	font-size: 11px;
+  border-radius: 10px 10px 10px 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	height: 35px;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #ffffff;
+	width: 200px;
+	background-color: #244892;
+}
+
+.button a {
+  font-size: 11px;
+  border-radius: 10px 10px 10px 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+  width: 200px;
+  background-color: #244892;
+}
+.secondary-button a {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 35px;
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+  width: 110px;
+  background-color: #244892;
+}
+.white-button {
+  float: right;
+}
+@media (max-width: 991px) {
+  .white-button {
+    text-align: center;
+    float: none;
+  }
+}
+.white-button a {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 35px;
+  display: inline-block;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+  width: 110px;
+  background-color: #244892;
+}
+
+
+
+.seguros{
+
+  background-color: lightgray;
+  border-radius: 10px 10px 10px 10px;
+  border:1px solid black;
+
+
+}
+
+#footer7{
+
+  background-color: lightgray;
+  font-family: verdana;
+  font-style: verdana;
+  margin-left: 60px;
+  
+  border-radius: 10px 10px 10px 10px;
+  margin-right: 57px;
+}
+
+#h5{
+  font-size: 18px;
+  font-family: georgia;
+  margin-left: 60px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet"  href="css/sistemas.css">
+  <link rel="stylesheet"  href="css/banners.css">
+  <link rel="stylesheet"  href="css/banner.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="css/slider.css">
+   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Large Modal</h2>
+  <!-- Button to Open the Modal -->
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">TENHO INTERESSE</button>
+     
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 id="titulo" class="modal-title">Solicite um orçamento</h4>
+          <button  type="button" class="close" data-dismiss="modal"> <img id="x" src="Imagens/x.png"></button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+           
+       <form  action="envia_fale.php" method="post" name="form">
+        <label for="nome"></label>
+        <input type="text" id="nome"  name="nome" placeholder="Nome..." required="">
+        
+        <label for="telefone"></label>
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone..." required="">
+        <label for="email"></label>
+        <input type="text" id="emailcontato" name="email" placeholder="E-mail..." required="">
+        
+        <label for="cidade"></label>
+        <input type="text" id="cidade" name="cidade" placeholder="Cidade..." required="">
+        <label id="test" for="mensagem">Mensagem*:</label>
+        <textarea id="test" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem.." style="height:170px" required="true">Olá! Estou interessado nesse Voyage e gostaria de saber mais detalhes</textarea>
+        </br>
+        </br>
+        <input type="submit" value="Enviar">
+      </form>
+       </br>  
+       </br>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
+
+

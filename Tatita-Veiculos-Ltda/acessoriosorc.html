@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     <meta charset= "UTF-8"> 
+
+  <title>Tatita Veículos</title>
+   <link rel="stylesheet"  href="css/sistemas.css">
+  <link rel="stylesheet"  href="css/banners.css">
+  <link rel="stylesheet"  href="css/banner.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="css/slider.css">
+   <link rel="stylesheet" href="css/novos.css">
+   <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mapa.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+    
+</head>
+<body>
+
+
+<div id="site">
+        <div id="topo">
+  <table id = "table">
+        <tr>
+            <td>
+              <img id="logo" src="Imagens/banner1.png" >
+               
+           </td>
+
+              <td id="topoicones">   
+                 <div id="botaoTopo">
+                    <table id="tableface">
+                      <tr>
+                        <a target="_blank" href="https://www.facebook.com/tatitavw/?fref=ts"><img id="facebook" border="0" src="Imagens/facebook.png"></a>
+                        <a href="contato.html"><img id="email" border="0" src="Imagens/email.png"></a> 
+                        <a target="_blank" href="https://www.instagram.com/tatitavw/?hl=pt-br"><img id="instagran" border="0" src="Imagens/instagran.jpg"></a>
+
+
+                      </tr>
+                    </table>
+              </div>
+          </td>
+      </tr>
+    </table>
+    <div id="clear"></div>
+    </div>
+
+<nav>
+
+<div id="menu">
+  <div id="menuInt">
+    <ul>
+     <li><a id="designerhome" href="index.html">QUEM SOMOS</a></li>
+    <li><a href="suporte.html">NOVOS</a></li>
+    <li><a href="trabalhe.html">SEMI NOVOS</a> </li> 
+    <li><a href="servicos.html">SERVIÇOS</a>
+                            <ul class="sub-vendas">
+                                <li><a href="agendar.html">AGENDAR</a></li>
+                            </ul></li> 
+    <li><a href="pecas.html">PEÇAS</a>
+                            <ul class="sub-vendas">
+                                <li><a href="pecasorc.html">ORÇAMENTO</a></li>
+                            </ul></li> 
+    <li><a href="acessorio.html">ACESSÓRIOS</a>
+                            <ul class="sub-vendas">
+                                <li><a href="acessoriosorc.html">ORÇAMENTO</a></li>
+                            </ul></li>
+    <li><a id="designerhomes" href="contato.html">CONTATO</a></li> 
+  </ul>
+  </div>
+  </div>
+</nav>
+</br>
+</br>
+</br>
+</br>
+
+<img id="pecass" src="Imagens/bannerorcamento.jpg" >
+
+
+<div class="container">
+  <div style="text-align:center">
+   </br>
+   <h2 id="titulo12">Solicite o seu Orçamento</h2>
+  </div>
+  <div class="row">
+    
+    <div class="column">
+     <form  action="envia_fale.php" method="post" name="form">
+      
+       <h2 id="titulo12">Informações de Contato:</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome"  name="nome" placeholder="Nome.." required="">
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome.." required="">
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone.." required="">
+        <label for="email">E-mail:</label>
+        <input type="text" id="emailcontato" name="email" placeholder="Email.." required="">
+        <label for="telefone">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Cidade.." required="">
+
+          <label for="estado">Estado:</label>
+        <select id="estado" name="estado">
+          <option>Selecione</option>
+              <option value="AC">Acre</option> 
+              <option value="AL">Alagoas</option> 
+              <option value="AM">Amazonas</option> 
+              <option value="AP">Amapá</option> 
+              <option value="BA">Bahia</option> 
+              <option value="CE/">Ceará</option> 
+              <option value="DF">Distrito Federal</option> 
+              <option value="ES">Espírito Santo</option> 
+              <option value="GO">Goiás</option> 
+              <option value="MA">Maranhão</option> 
+              <option value="MT">Mato Grosso</option> 
+              <option value="MS">Mato Grosso do Sul</option> 
+              <option value="MG">Minas Gerais</option> 
+              <option value="PA">Pará</option> 
+              <option value="PB">Paraíba</option> 
+              <option value="PR">Paraná</option> 
+              <option value="PE">Pernambuco</option> 
+              <option value="PI">Piauí</option> 
+              <option value="RJ">Rio de Janeiro</option> 
+              <option value="RN">Rio Grande do Norte</option> 
+              <option value="RO">Rondônia</option> 
+              <option value="RS">Rio Grande do Sul</option> 
+              <option value="RR">Roraima</option> 
+              <option value="SC">Santa Catarina</option> 
+              <option value="SE">Sergipe</option> 
+              <option value="SP">São Paulo</option> 
+              <option value="TO">Tocantins</option> 
+        </select>
+       
+        <h2 id="titulo12">Dados do Veículos:</h2>
+        <label for="veiculo">Veiculo:</label>
+        <input type="text" id="veiculo" name="veiculo" placeholder="veiculo.." required="">
+        <label for="versao">Versão:</label>
+        <input type="text" id="versao" name="versao" placeholder="Versão.." required="">
+        
+        <label for="ano" >Ano*:</label required="">
+             <select  name="Ano" id="ano"> 
+                    <option value="" selected="selected" ></option
+                  <option value="2000">2000</option>
+                   <option value="2001">2001</option> 
+                  <option value="2002">2002</option> 
+                  <option value="2003">2003</option> 
+                  <option value="2004">2004</option>
+                  <option value="2005">2005</option> 
+                   <option value="2006">2006</option>  
+                   <option value="2007">2007</option>  
+                   <option value="2008">2008</option>
+                   <option value="2009">2009</option> 
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option> 
+                  <option value="2012">2012</option> 
+                  <option value="2013">2013</option> 
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option> 
+                   <option value="2016">2016</option>  
+                   <option value="2017">2017</option>
+                   <option value="2018">2018</option> 
+              </select>
+
+</n>
+        <label for="modelo">Modelo*:</label required="">
+             <select name="Modelo" id="Modelo"> 
+                   <option value="" selected="selected"></option
+                  <option value="2000">2000</option>
+                   <option value="2001">2001</option> 
+                  <option value="2002">2002</option> 
+                  <option value="2003">2003</option> 
+                  <option value="2004">2004</option>
+                  <option value="2005">2005</option> 
+                   <option value="2006">2006</option>  
+                   <option value="2007">2007</option>  
+                   <option value="2008">2008</option>
+                   <option value="2009">2009</option> 
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option> 
+                  <option value="2012">2012</option> 
+                  <option value="2013">2013</option> 
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option> 
+                   <option value="2016">2016</option>  
+                   <option value="2017">2017</option>
+                   <option value="2018">2018</option> 
+              </select>
+  <label for="chassi">Chassi*:</label>
+        <input type="text" id="chassi" name="chassi" placeholder="Chassi.." required="">
+
+        <label for="combustivel">Combustível*: </label required="">
+            <select name="combustivel"  id="combustivel">
+                  <option value="" selected="selected"></option>
+                  <option value="Gás natural" >Gás natural</option>
+                  <option value="Gasolina" >Gasolina</option>
+                  <option value="Diesel" >Diesel</option>
+                  <option value="Álcool e Gasolina" >Álcool e Gasolina</option>
+                  <option value="Álcool" >Álcool</option>
+            </select>  
+           <br />
+
+<h2 id="titulo12">Cotação:</h2>
+
+
+        <label for="descricao">Descrição dos acessórios procurados*:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem.." style="height:170px"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<footer id="footer12">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="footer-item">
+                  <div class="about-autocar">
+                  </br>
+                    <h2 id="fontfooter">Quem somos</h2>
+                    <div class="line-dec"></div>
+                    <p>Concessionária autorizada Volkswagen de Cambuí e região, fazendo amigos desde 1968!</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="footer-item">
+                  <div class="what-offer">
+                    <h2></h2>
+                    <div class="line-dec"></div>
+                    <ul id="ulfooter" >
+                    </br>
+                                          <li><a href="index.html">- Home</a></li>
+                      <li><a href="suporte.html">- Novos</a></li>
+                      <li><a href="trabalhe.html">- Seminovos</a></li>
+                                            
+                                            <li><a href="servicos.html">- Revis&atilde;o</a></li>
+                      <li><a href="pecasorc.html">- Pe&ccedil;as</a></li>  
+                      <li><a href="acessorio.html">- Acess&oacute;rios</a></li>           
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="footer-item">
+                  <div class="need-help">
+                    <h2></h2>
+                    <div class="line-dec"></div>
+                    </br>
+                    <ul id="ulfooter">  
+                    
+                                          <li><a href="index.html">- Quem Somos</a></li>      
+                      <li><a href="contato.html">- Contato</a></li>
+                                            <li><a href="http://www.vw.com.br" target="_blank">- Volkswagen</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="footer-item">
+                    </br>
+                    <p>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2Ftatitavw&tabs&width=430&height=220&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="445" height="220" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></p>
+
+
+
+                    <div class="recent-item">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>       
+</footer>
+
+
+
+
+</br>
+</br>
+
+
+
+
+
+  </body>
+  </html>

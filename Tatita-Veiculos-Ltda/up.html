@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     <meta charset= "UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tatita Veículos</title>
+   <link rel="stylesheet"  href="css/sistemas.css">
+  <link rel="stylesheet"  href="css/banners.css">
+  <link rel="stylesheet"  href="css/banner.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="css/slider.css">
+   <link rel="stylesheet" href="css/novos.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+    
+</head>
+<body>
+
+
+<div id="site">
+        <div id="topo">
+  <table id = "table">
+        <tr>
+            <td>
+              <img id="logo" src="Imagens/banner1.png" >
+               
+           </td>
+
+              <td id="topoicones">   
+                 <div id="botaoTopo">
+                    <table id="tableface">
+                      <tr>
+                        <a target="_blank" href="https://www.facebook.com/tatitavw/?fref=ts"><img id="facebook" border="0" src="Imagens/facebook.png"></a>
+                          <a href="contato.html"><img id="email" border="0" src="Imagens/email.png"></a> 
+                        <a target="_blank" href="https://www.instagram.com/tatitavw/?hl=pt-br"><img id="instagran" border="0" src="Imagens/instagran.jpg"></a>
+
+
+                      </tr>
+                    </table>
+              </div>
+          </td>
+      </tr>
+    </table>
+    <div id="clear"></div>
+    </div>
+
+<nav>
+
+<div id="menu">
+  <div id="menuInt">
+    <ul>
+     <li><a id="designerhome" href="index.html">QUEM SOMOS</a></li>
+    <li><a href="suporte.html">NOVOS</a></li>
+    <li><a href="trabalhe.html">SEMI NOVOS</a> </li> 
+    <li><a href="servicos.html">SERVIÇOS</a>
+                            <ul class="sub-vendas">
+                                <li><a href="agendar.html">AGENDAR</a></li>
+                            </ul></li> 
+    <li><a href="pecas.html">PEÇAS</a>
+                            <ul class="sub-vendas">
+                                <li><a href="pecasorc.html">ORÇAMENTO</a></li>
+                            </ul></li> 
+    <li><a href="acessorio.html">ACESSÓRIOS</a>
+                             <ul class="sub-vendas">
+                                <li><a href="acessoriosorc.html">ORÇAMENTO</a></li>
+                            </ul></li>
+    <li><a id="designerhomes" href="contato.html">CONTATO</a></li> 
+  </ul>
+  </div>
+  </div>
+</nav>
+
+</div>
+
+
+
+<img id="upbanner" src="Imagens/bannernovos/bannerup.jpg">
+
+<div class="container">
+       
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+        <button  type="button" class="close" data-dismiss="modal"> <img id="x" src="Imagens/x.png"></button>
+          <h4 id="titulo" class="modal-title">Solicite um orçamento</h4>
+          
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+           
+       <form  action="envia_fale.php" method="post" name="form">
+        <label for="nome"></label>
+        <input type="text" id="nome"  name="nome" placeholder="Nome..." required="">
+        
+        <label for="telefone"></label>
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone..." required="">
+        <label for="email"></label>
+        <input type="text" id="emailcontato" name="email" placeholder="E-mail..." required="">
+        
+        <label for="cidade"></label>
+        <input type="text" id="cidade" name="cidade" placeholder="Cidade..." required="">
+        <label id="test" for="mensagem">Mensagem*:</label>
+        <textarea id="test" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem.." style="height:170px" required="true">Olá! Estou interessado nesse UP e gostaria de saber mais detalhes</textarea>
+        </br>
+        </br>
+        <input type="submit" value="Enviar">
+      </form>
+       </br>  
+       
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+
+<section id="versoes" class="catalogVersions hidden-xs hidden-sm">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 id="titulo">Versões disponíveis</h1>
+            <div class="container">
+                      <div class="row">
+
+                      <div class="col-md-12 catalogCar">
+                                <div class="col-md-4 catalogImage">
+                          
+                                    <img id="upp" src="Imagens/bannernovos/moveup.png" alt="" class="img-responsive">
+                                    </br>
+                                    </br>
+                                    <div id="toposs"></div>
+                                </div>
+                                <div class="col-md-5">
+                               
+                                <h3 id="titulocarro">Move up! 1.0</h3>
+                                    <ul>
+<li>Ar-condicionado com filtro de poeira e p&oacute;len</li>
+<li>"easy drive" - dire&ccedil;&atilde;o el&eacute;trica</li>
+<li>Espelhos retrovisores externos com ajuste el&eacute;trico e fun&ccedil;&atilde;o "Tilt-Down" no lado direito</li>
+<li>Far&oacute;is de neblina</li>
+<li>"Keyless" - sistema de alarme com comando remoto</li>
+</ul>
+</div>
+                                 <div class="col-md-1 catalogBtn">
+                                <div class="button">
+                                </br>
+                                </br>
+                               
+                                </br> 
+                                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Tenho Interesse</button>
+                                 </div>
+                              </div>
+                              </div>
+
+                   <div class="col-md-12 catalogCar">
+                                <div class="col-md-4 catalogImage">
+                                </br>
+                                    <img id="uppp" src="Imagens/bannernovos/upmotion.png"  alt="" class="img-responsive">
+                                  
+                                    <div id="toposs"></div>
+                                </div>
+                                <div class="col-md-5">
+                                </br>
+                                <h3 id="titulocarro">Move up! 1.0 I-Motion</h3>
+                                    <ul>
+<li>Ar-condicionado com filtro de poeira e p&oacute;len</li>
+<li>"easy drive" - dire&ccedil;&atilde;o el&eacute;trica</li>
+<li>Espelhos retrovisores externos com ajuste el&eacute;trico e fun&ccedil;&atilde;o "Tilt-Down" no lado direito</li>
+<li>Far&oacute;is de neblina</li>
+<li>"Keyless" - sistema de alarme com comando remoto</li>
+</ul>
+                               </div>
+                                 <div class="col-md-1 catalogBtn">
+                                <div class="button">
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                
+                                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Tenho Interesse</button>
+                                 </div>
+                              </div>
+                              </div>
+
+                         <div class="col-md-12 catalogCar">
+                                <div class="col-md-4 catalogImage">
+                                </br>
+                                    <img id="upppp" src="Imagens/bannernovos/moveuptsi.jpg"  alt="" class="img-responsive">
+                                   
+                                    <div id="toposs"></div>
+                                </div>
+                                <div class="col-md-5">
+                                </br>
+                                <h3 id="titulocarro1">Move up! 1.0 TSI</h3>
+                                    <ul>
+<li>Ar-condicionado com filtro de poeira e p&oacute;len</li>
+<li>"easy drive" - dire&ccedil;&atilde;o el&eacute;trica</li>
+<li>Espelhos retrovisores externos com ajuste el&eacute;trico e fun&ccedil;&atilde;o "Tilt-Down" no lado direito</li>
+<li>Far&oacute;is de neblina</li>
+<li>"Keyless" - sistema de alarme com comando remoto</li>
+</ul>
+                                </div>
+                                 <div class="col-md-1 catalogBtn">
+                                <div class="button">
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                
+                                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Tenho Interesse</button>
+                                 </div>
+                              </div>
+                              </div>
+
+                <div class="col-md-12 catalogCar">
+                                
+                                <div class="col-md-4 catalogImage">
+                                </br>
+                                </br>
+                                </br>
+                                    <img id="upp" src="Imagens/bannernovos/Uppeper.png"  alt="" class="img-responsive">
+                                    </br>
+                                    </br>
+                                    <div id="toposs"></div>
+                                </div>
+                                <div class="col-md-5">
+                                </br>
+                                <h3 id="titulocarro">UP Pepper 1.0 TSI</h3>
+                                    <ul>
+<li>Acabamento interno escurecido (teto e colunas)</li>
+<li>Rodas de liga leve aro 15" com pneus de baixa resist&ecirc;ncia &agrave; rolagem 185/60 R15</li>
+<li>Sensor crepuscular para acionamento autom&aacute;tico dos far&oacute;is com fun&ccedil;&atilde;o "Coming &amp; Leaving Home"</li>
+<li>Sensor de chuva para acionamento autom&aacute;tico dos limpadores do para-brisa</li>
+<li>Soleira das portas dianteiras com aplique em alum</li>
+</ul>
+                                 </div>
+                                 <div class="col-md-1 catalogBtn">
+                                <div class="button">
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                
+                                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Tenho Interesse</button>
+                                 </div>
+                              </div>
+                              </div>
+                             
+                    <div class="col-md-4 catalogImage">
+                                    </br>
+                                    </br>
+                                    <img id="upp" src="Imagens/bannernovos/crossup.png"  alt="" class="img-responsive">
+                                    </br>
+
+                                    <div id="toposs"></div>
+                                </div>
+                                <div class="col-md-5">
+                                </br>
+                                <h3 id="titulocarro">Cross up! 1.0 TSI</h3>
+                                    <ul>
+<li>Far&oacute;is de neblina com luz de convers&atilde;o est&aacute;tica</li>
+<li>Frisos laterais com inscri&ccedil;&atilde;atilde;o "cross"</li>
+<li>Rack de teto longitudinal em "chrome effect"</li>
+<li>Rodas de liga leve aro 15" com pneus de baixa resist&ecirc;ncia &agrave; rolagem 185/60 R15</li>
+<li>Soleira das portas dianteiras com aplique em alum&iacute;nio</li>
+</ul>
+                             </div>
+                                 <div class="col-md-1 catalogBtn">
+                                <div class="button">
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                </br>
+                                
+                                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Tenho Interesse</button>
+                                 </div>
+                              </div>
+                              </div>
+                                                       
+          </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  
+</br>
+</br>
+
+<footer id="footer11">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="footer-item">
+                  <div class="about-autocar">
+                  </br>
+                    <h2 id="fontfooter">Quem somos</h2>
+                    <div class="line-dec"></div>
+                    <p>Concessionária autorizada Volkswagen de Cambuí e região, fazendo amigos desde 1968!</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="footer-item">
+                  <div class="what-offer">
+                    <h2></h2>
+                    <div class="line-dec"></div>
+                    <ul id="ulfooter" >
+                    </br>
+                                          <li><a href="index.html">- Home</a></li>
+                      <li><a href="suporte.html">- Novos</a></li>
+                      <li><a href="trabalhe.html">- Seminovos</a></li>
+                                            
+                                            <li><a href="servicos.html">- Revis&atilde;o</a></li>
+                      <li><a href="pecasorc.html">- Pe&ccedil;as</a></li>  
+                      <li><a href="acessorio.html">- Acess&oacute;rios</a></li>           
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="footer-item">
+                  <div class="need-help">
+                    <h2></h2>
+                    <div class="line-dec"></div>
+                    </br>
+                    <ul id="ulfooter">  
+                    
+                                          <li><a href="index.html">- Quem Somos</a></li>      
+                      <li><a href="contato.html">- Contato</a></li>
+                                            <li><a href="http://www.vw.com.br" target="_blank">- Volkswagen</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="footer-item">
+                    </br>
+                    <p>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2Ftatitavw&tabs&width=430&height=220&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="445" height="220" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></p>
+
+
+
+                    <div class="recent-item">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>       
+</footer>
+
+
+
+
+</br>
+</br>
+
+
+</body>
+</html>
