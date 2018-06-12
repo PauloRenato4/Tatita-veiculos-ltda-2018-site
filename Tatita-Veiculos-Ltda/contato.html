@@ -98,7 +98,7 @@
       <div id="map" style="width:90%;height:775px"></div>
     </div>
     <div class="column">
-     <form  action="envia_fale.php" method="post" name="form">
+     <form  action="php/envia_fale.php" method="post" name="form">
         <label for="nome">Nome:</label>
         <input type="text" id="nome"  name="nome" placeholder="Nome.." required="">
         
@@ -106,7 +106,7 @@
         <input type="text" id="telefone" name="telefone" placeholder="Telefone.." required="">
         <label for="email">Email:</label>
         <input type="text" id="emailcontato" name="email" placeholder="Email.." required="">
-        <label for="telefone">Cidade:</label>
+           <label for="telefone">Cidade:</label>
         <input type="text" id="cidade" name="cidade" placeholder="Cidade.." required="">
         <label for="estado">Estado:</label>
         <select id="estado" name="estado">
@@ -145,8 +145,13 @@
         <input type="text" id="assunto" name="assunto" placeholder="Assunto.." required="">
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem.." style="height:170px"></textarea>
+
+       
+        
         <input type="submit" value="Enviar">
       </form>
+
+    
     </div>
   </div>
 </div>
